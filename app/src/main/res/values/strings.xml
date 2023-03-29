@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">todo-list</string>
+    <string name="app_name">Kolbat</string>
+    <string name="description">kolbat adalah aplikasi perhitungan bangunan datar seperti persegi, persegi panjang, segitiga, dan lingkarang</string>
+    <string name="default_bangunan_datar">Persegi</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="sisi">Sisi</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hasil">Hasil</string>
+<!--    <string name="bangunan_datar_hasil">Bangunan Datar : Persegi</string>-->
+    <string name="bangunan_datar_hasil">Bangunan Datar : %1$s</string>
+    <string name="luas">Luas : %1$.2f</string>
+    <string name="keliling">Keliling : %1$.2f</string>
+    <string name="sisi_invalid">Sisi Invalid</string>
+    <string name="panjang_invalid">Panjang Invalid</string>
+    <string name="lebar_invalid">Lebar Invalid</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="jari">Jari Jari</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="alas">Alas</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="sisi_a">Sisi A</string>
+    <string name="sisi_b">Sisi B</string>
+    <string name="sisi_c">Sisi C</string>
+
+    <string name="input_invalid">Input Invalid</string>
+
+    <string-array name="planets_array">
+        <item>Persegi</item>
+        <item>Persegi Panjang</item>
+        <item>Segitiga</item>
+        <item>Lingkaran</item>
+    </string-array>
+
+    <string name="bangun_datar_pilih">Pilih Bangun Datar</string>
+
+    <string name="alas_invalid">Alas Invalid</string>
+    <string name="tinggi_invalid">Tinggi Invalid</string>
+    <string name="sisi_a_invalid">Sisi A Invalid</string>
+    <string name="sisi_b_invalid">Sisi B Invalid</string>
+    <string name="sisi_c_invalid">Sisi C Invalid</string>
+    <string name="sisi_d_invalid">Sisi D Invalid</string>
+    <string name="jari_jari_invalid">Jari Jari Invalid</string>
 </resources>
