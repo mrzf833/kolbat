@@ -13,14 +13,15 @@ import org.d3if3090.todo_list.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        goneBangunanDatar()
-        goneHasil()
+//        goneBangunanDatar()
+//        goneHasil()
 
-    val spinner: Spinner = binding.bangunDatarSpinner
+        val spinner: Spinner = binding.bangunDatarSpinner
     // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter.createFromResource(
             this,
